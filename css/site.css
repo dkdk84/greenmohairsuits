@@ -9,21 +9,84 @@ body {
 	margin: 0 auto;
 }
 .header {
-	background: url('../img/header.jpg');
-	height: 341px;
+	background: #26272c;
+}
+.header img {
+	width: 100%;
 }
 .title {
 	background: #26272c;
 	text-align: right;
 	color: #fff;
 	font-family: 'adam.cg_proregular';
+	position: relative;
+	height: 40px;
+}
+.title h1 {
 	font-size: 15px;
-	padding: 10px 12px;
 	letter-spacing: 1.2px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 12px;
+	top: 9px;
 }
 .title em {
 	font-style: normal;
 	color: #afafaf;
+}
+a.drop {
+	position: absolute;
+	left: 15px;
+	top: 5px;
+	width: 30px;
+	height: 15px;
+	padding-top: 10px;
+	display: none;
+}
+a.drop i {
+	display: block;
+	background: #a0b48f;
+	height: 5px;
+	width: 30px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	position: relative;
+}
+a.drop i:before {
+	content: "";
+	display: block;
+	background: #a0b48f;
+	height: 5px;
+	position: absolute;
+	top: -10px;
+	width: 30px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+a.drop i:after {
+	content: "";
+	display: block;
+	background: #a0b48f;
+	height: 5px;
+	position: absolute;
+	top: 10px;
+	width: 30px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+a.drop.open i {
+	background: transparent;
+}
+a.drop.open i:before {
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+a.drop.open i:after {
+	top: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 .social {
 	background: #a0b48f;
@@ -89,7 +152,6 @@ body {
 	background: #26272c;
 	color: #fff;
 	margin: 0 auto;
-	display: table;
 	width: 100%;
 	box-sizing: border-box;
 	position: relative;
@@ -151,12 +213,12 @@ h1 {
 	font-size: 22px;
 }
 .youtube {
-	width: 348px;
+	max-width: 348px;
 	height: 190px;
 	background: #666;
 }
 .photo {
-	width: 348px;
+	max-width: 348px;
 	height: 190px;
 	background: #666;
 }
@@ -202,20 +264,49 @@ a.contact:hover {
 	text-decoration: underline;
 }
 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width: 800px) {
 	.container {
-		width: 320px;
+		width: 700px;
 	}
-	.header {
-		background: url('../img/header-mobile.jpg') center center no-repeat;
-		height: 154px;
+	.middle {
+		margin-left: 174px;
+		margin-right: 7px;
+	}
+	.youtube {
+		width: 100%;
+		max-width: 100%;
+	}
+	.right {
+		position: relative;
+		margin-left: 180px;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.container {
+		width: 100%;
 	}
 	.main .inner {
 		display: block;
 	}
+	a.drop {
+		display: block;
+	}
 	.left {
-		position: relative;
-		width: 100%;
+		position: absolute;
+		background: #26272c;
+		top: -57px;
+		left: -5px;
+		height:	0;
+		overflow: hidden;
+	}
+	.left.open {
+		height:	auto;
 	}
 	.left .nav {
 		border: 0;
@@ -225,9 +316,8 @@ a.contact:hover {
 		margin-right: 7px;
 	}
 	.right {
-		position: relative;
+		margin: 0 7px;
 		width: 100%;
-		right: 0;
 	}
 	.youtube {
 		width: 100%;
