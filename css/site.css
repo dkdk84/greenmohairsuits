@@ -103,6 +103,7 @@ body {
 	width: 256px;
 	height: 351px;
 	position: absolute;
+	text-align: center;
 	top: 7px;
 	right: 7px;
 }
