@@ -16,6 +16,10 @@ body {
 	background: #26272c;
 	text-align: right;
 	color: #fff;
+	font-family: 'adam.cg_proregular';
+	font-size: 15px;
+	padding: 10px 12px;
+	letter-spacing: 1.2px;
 }
 .title em {
 	font-style: normal;
