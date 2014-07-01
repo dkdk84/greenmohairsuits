@@ -191,10 +191,9 @@ a.drop.open i:after {
 .right {
 	background: #fff;
 	color: #000;
-	width: 256px;
-	height: 351px;
+	width: 210px;
+	height: 350px;
 	position: absolute;
-	text-align: center;
 	top: 7px;
 	right: 7px;
 }
@@ -280,7 +279,7 @@ a.contact:hover {
 		position: relative;
 		margin-left: 180px;
 		width: auto;
-		text-align: center;
+
 	}
 }
 @media only screen and (max-width: 700px) {
@@ -321,7 +320,6 @@ a.contact:hover {
 		width: 250px;
 		position: fixed;
 		top: inherit;
-		text-align:center;
 		bottom: 0;
 		left: 0;
 		height: 67px;
