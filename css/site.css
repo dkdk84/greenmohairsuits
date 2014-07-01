@@ -280,6 +280,7 @@ a.contact:hover {
 		position: relative;
 		margin-left: 180px;
 		width: auto;
+		text-align: center;
 	}
 }
 @media only screen and (max-width: 700px) {
