@@ -187,15 +187,16 @@ a.drop.open i:after {
 	margin-left: 163px;
 	margin-right: 215px;
 	margin-top: 7px;
-	top: 7px;
+	padding-top: 7px;
 	min-height: 400px;
 }
 .right {
 	background: #fff;
 	color: #000;
 	width: 210px;
-	height: 350px;
+	height: 540px;
 	position: absolute;
+	text-align: center;
 	top: 7px;
 	right: 7px;
 }
@@ -211,7 +212,7 @@ a.drop.open i:after {
 }
 h1 {
 	font-family: 'adam.cg_proregular';
-	font-size: 22px;
+	font-size: 15px;
 }
 .youtube {
 	max-width: 395px;
@@ -220,9 +221,11 @@ h1 {
 	background: #666;
 }
 .photo {
-	max-width: 348px;
-	height: 190px;
+	max-width: 395px;
+	height: 220px;
+	top:7px;
 	background: #666;
+	
 }
 .bandcamp {
 	display: block;
