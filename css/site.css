@@ -139,7 +139,7 @@ a.drop.open i:after {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 190px;
+	height: 220px;
 }
 
 
@@ -153,6 +153,7 @@ a.drop.open i:after {
 	color: #fff;
 	margin: 0 auto;
 	width: 100%;
+	
 	box-sizing: border-box;
 	position: relative;
 }
@@ -184,8 +185,9 @@ a.drop.open i:after {
 .middle {
 	display: block;
 	margin-left: 163px;
-	margin-right: 269px;
+	margin-right: 215px;
 	margin-top: 7px;
+	top: 7px;
 	min-height: 400px;
 }
 .right {
@@ -212,8 +214,9 @@ h1 {
 	font-size: 22px;
 }
 .youtube {
-	max-width: 348px;
-	height: 190px;
+	max-width: 395px;
+	height: 220px;
+	top:7px;
 	background: #666;
 }
 .photo {
