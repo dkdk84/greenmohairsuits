@@ -142,11 +142,7 @@ a.drop.open i:after {
 	height: 220px;
 }
 
-.erb-image-wrapper img{
-    max-width:100% !important;
-    height:auto;
-    display:block;
-}
+
 
 
 .main {
@@ -228,7 +224,7 @@ h1 {
 }
 .photo {
 	max-width: 364px;
-	height: auto;
+	height: 220px;
 	top:7px;
 	background: #666;
 	
@@ -341,6 +337,5 @@ a.contact:hover {
 		width: 100%;
 	}
 	.photo {
-		width: 100%;
 	}
 }
