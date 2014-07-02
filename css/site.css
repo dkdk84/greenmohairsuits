@@ -228,7 +228,7 @@ h1 {
 }
 .photo {
 	max-width: 364px;
-	height: 220px;
+	height: auto;
 	top:7px;
 	background: #666;
 	
