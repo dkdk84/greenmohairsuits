@@ -190,7 +190,7 @@ a.drop.open i:after {
 	margin-right: 250px;
 	margin-top: 7px;
 	padding-top: 7px;
-	min-height: 400px;
+	min-height: 450px;
 }
 .right {
 	background: #fff;
@@ -337,6 +337,6 @@ a.contact:hover {
 		width: 100%;
 	}
 	.photo {
-		width: 100%;
+		width: 10%;
 	}
 }
