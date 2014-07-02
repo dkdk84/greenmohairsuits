@@ -142,6 +142,20 @@ a.drop.open i:after {
 	height: 220px;
 }
 
+.photoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+}
+.photoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 220px;
+}
+
 
 .main {
 	background: #fff;
