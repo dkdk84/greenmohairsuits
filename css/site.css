@@ -224,10 +224,13 @@ h1 {
 }
 .photo {
 	max-width: 364px;
-	height: 220px;
+	/*height: 220px;*/
 	top:7px;
-	background: #fff;
+	/*background: #fff;*/
 	
+}
+.photo img {
+	width: 100%;
 }
 .bandcamp {
 	display: block;
