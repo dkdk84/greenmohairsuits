@@ -223,6 +223,7 @@ h1 {
 	background: #666;
 }
 .photo {
+	text-align:center;
 	max-width: 364px;
 	/*height: 220px;*/
 	top:7px;
