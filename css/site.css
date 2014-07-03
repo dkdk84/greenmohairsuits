@@ -223,7 +223,6 @@ h1 {
 	background: #666;
 }
 .photo {
-	text-align:center;
 	max-width: 364px;
 	/*height: 220px;*/
 	top:7px;
@@ -232,6 +231,7 @@ h1 {
 }
 .photo img {
 	width: 100%;
+	margin: 0 auto;
 }
 .bandcamp {
 	display: block;
